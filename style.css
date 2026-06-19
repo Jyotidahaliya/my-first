@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+.abc{
+    min-height: 100vh;
+    width:100%;
+     background:linear-gradient(
+        to right,
+         rgb(194, 125, 136) 50%,
+        rgb(177, 120, 120) 50%,
+        rgb(142, 219, 142) 50%,
+     rgb(125, 201, 125) 100%
+     );
+    display: flex;
+}
+.list{
+    display:flex;
+    gap:3.5rem;
+    height:15vh;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+}
+.list li{
+    list-style: none;
+}
+.list li a{
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size:1rem;
+    color:rgb(88, 84, 79);
+}
